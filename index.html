@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>QR Generator Organa</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Organa QRCode generator</h1><br />
+
+        <div class="container">
+            <input type="text" id="url" placeholder="Ingresa la url del JSON">
+            <button id="btn">Generar códigos</button><br/><br/>
+        </div>
+
+        <div id='box' class='box'>
+            <div id="qr-holder" class='qr-holder'></div>
+        </div>
+
+        <script src="qrious.js"></script>
+        <script src="index.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    background-color: #f1f1f1;
+}
+
+.qr-holder {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.qr {
+    width: 250px;
+}
+
+.name {
+    background-color: #ffe521;
+    height: 2rem;
+    width: 250px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    text-align: center;
+    height: 2rem;
+    width: 30rem;
+    
+}
+
+button {
+    text-align: center;
+    height: 2rem;
+    
+}
