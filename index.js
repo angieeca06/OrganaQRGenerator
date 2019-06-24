@@ -13,7 +13,7 @@ function organaGenerator() {
                 return student.role == "student"; //Filter by students
             });
             const namesArr = students.map(student => student.name) //Students names
-            const idsArr = students.map(student => student.id + student.name) // Map only id's 
+            const idsArr = students.map(student => student.id) // Map only id's 
 
             idsArr.forEach((id, index) => { //Inject QR + name on HTML
                 const qr = document.createElement('canvas');
@@ -38,6 +38,7 @@ function organaGenerator() {
                     foreground: 'black',
                     level: 'H',
                 });
+                console.log(idsArr);
             });
         })
         .catch(error => console.error(error))
